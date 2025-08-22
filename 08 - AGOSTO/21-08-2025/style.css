@@ -1,0 +1,74 @@
+/* body{
+    background-color: #232323;
+    text-align: center;
+}
+h1{
+    color: navy;
+}
+
+p{
+    width: 60rem;
+    color: rgb(95, 95, 188);
+    text-align: center  ;
+    margin: auto;
+}
+ul{
+    width: 10rem;
+    margin: auto;
+}
+li{
+    width: 100%;
+    color: pink;
+}
+
+#mesmo{
+    color: rgb(105, 10, 10);
+}
+
+.myclass{
+    border: .1rem ridge #f72c2c;
+}
+.newclass{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.teste-cores{
+    padding: 2rem;
+    border: .1rem solid rgba(250, 0, 250, 1);
+    background-color: rgba(110, 0, 110, .1);
+} */
+
+
+body{
+    background-color: rgb(43, 42, 42);
+    color: rgba(220, 220, 220, 1);
+}
+h1{
+    text-align: center;
+    color: brown;    
+}
+#mesmo{
+    margin: auto;
+    text-align: center;
+    width: 80%;
+    padding: 2rem;
+    border: .1rem solid rgba(200, 0, 15, 1);
+}
+.myclass{
+    text-align: center;
+    width: auto;
+    color: rgb(128, 125, 128);
+    border: solid .1rem rgb(200, 0, 15);
+}
+.newclass{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.teste-cores{
+    text-align: center;
+    border: rgb(0, 0, 0) dotted .3rem; 
+}
+h4{
+    border: .1rem double rgb(150, 0, 35);
+}
