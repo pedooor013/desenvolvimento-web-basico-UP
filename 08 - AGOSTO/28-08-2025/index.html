@@ -7,6 +7,76 @@
     <title>Aula de Tags</title>
 </head>
 <body>
+    <h1>Tags e CSS</h1>
+    <hr>
+    <h2>Tabelas</h2>
+    <hr>
+    <table>
+        <tr> <!-- Linhas da tabela (table row) -->
+            <th>Nome: </th> <!-- Dado fixo da tabela (table head) -->
+            <th>E-mail</th>
+        </tr>
+        <tr>
+            <td>Pedro Lopes</td><!-- Dados da Tabela (table data) -->
+            <td>pedrolopes.programador013@gmail.com</td>
+        </tr>
+        
+    </table>
+
+    <p>Exemplo de tabela com cabeçalho (thead), corpo (tbody), e rodape(tfoot)</p>
     
+    <table>
+        <thead>
+            <th>Aluno:</th>
+            <th>Media:</th>
+            <th>Turma:</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Pedro Lopes</td>
+                <td>8.5</td>
+                <td>BES</td>
+            </tr>
+            <tr>
+                <td>Vitoria</td>
+                <td>10</td>
+                <td>Fisioteparia</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th>Tabela de notas de alinosa</th>
+        </tfoot>
+    </table>
+
+    <p>Table com Colspan e Rowspan - Mescla de células</p>
+
+    <table>
+        <tr>
+            <th>Coluna 1</th>
+            <th>Coluna 2</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Dado 1</td>
+            <td>Dado 2</td>
+        </tr>
+        <tr>
+            <td>Dado 3</td>
+        </tr>
+    </table>
+    <br>
+    <table>
+        <tr>
+            <th>Coluna 1</th>
+            <th>Coluna 2</th>
+        </tr>
+        <tr>
+            <td colspan="2">Dado 1</td>
+            <td>Dado 2</td>
+        </tr>
+        <tr>
+            <td>Dado 3</td>
+        </tr>
+    </table>
+
 </body>
 </html>
