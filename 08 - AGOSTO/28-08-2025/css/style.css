@@ -4,3 +4,9 @@ body{
 table, tr, th, td{
     border: solid 1px black;
 }
+td:hover{
+    transition: .5s;
+    color: wheat;
+    background-color: #f91111;
+    cursor: context-menu;
+}
